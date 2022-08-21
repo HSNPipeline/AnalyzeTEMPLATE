@@ -11,13 +11,13 @@ TASK = ''
 # Set files to ignore
 IGNORE = []
 
-# Set
+# Set verboseness
 VERBOSE = True
 
 RUN = {
     'TASK' : TASK,
     'IGNORE' : IGNORE,
-    'VERBOSE' : VERBOSE
+    'VERBOSE' : VERBOSE,
 }
 
 ###################################################################################################

@@ -6,12 +6,12 @@ from convnwb.io import load_nwbfile, get_files, save_json, save_txt, file_in_lis
 from convnwb.utils import print_status
 
 # Import settings from local file
-from settings import RUN, PATHS, UNITS
+from settings import RUN, PATHS, UNITS, XX
 
 # Import local code
 import sys
 sys.path.append('../code')
-...
+from reports import XX
 
 ###################################################################################################
 ###################################################################################################
@@ -53,7 +53,6 @@ def main():
         # Get unit information
         n_units = len(nwbfile.units)
 
-
         # Loop across all units
         for unit_ind in range(n_units):
 
@@ -80,7 +79,7 @@ def main():
                 ## Compute measures
                 ...
 
-                ## Collest results
+                ## Collect results
                 ...
 
                 # Save out unit results

@@ -9,7 +9,7 @@ from settings import RUN, PATHS
 # Import local code
 import sys
 sys.path.append('../code')
-from reports import xx
+from reports import XX
 
 ###################################################################################################
 ###################################################################################################
