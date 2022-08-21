@@ -1,0 +1,12 @@
+# Ignore checkpoint files
+**/.ipynb_checkpoints/*
+
+# Ignore cache files
+**/__pycache__/**
+
+# Ignore generated report & result files
+results/*
+reports/*
+
+# Ignore scratch files
+**/scratch**
