@@ -2,6 +2,11 @@
 
 This is a template repository for a standard layout for analyzing a single-unit project.
 
+This template follows the general purpose 
+[ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
+layout from
+[StructuredScience](https://github.com/structuredscience/).
+
 ## Overview
 
 **Provide an overview of the analysis project here, for example:**
@@ -26,7 +31,7 @@ The full list of dependencies is listed in `requirements.txt`.
 Add any details about repository layout here.
 
 This repository is set up in the following way:
-- `code/` contains custom code and utilities for doing the analyses
+- `code/` contains custom code and utilities
 - `notebooks/` contains notebooks for exploring analyses
 - `scripts/` contains stand alone scripts
 
