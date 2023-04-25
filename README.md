@@ -1,11 +1,20 @@
 # AnalyzeTEMPLATE
 
+Analysis repository for XX.
+
+[![Data](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
+[![Template](https://img.shields.io/badge/template-HSUPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
+
+## TEMPLATE DESCRIPTION
+
 This is a template repository for a standard layout for analyzing a single-unit project.
 
-This template follows the general purpose 
+This template follows the general purpose
 [ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
 layout from
 [StructuredScience](https://github.com/structuredscience/).
+
+Note: if copying this template for use, this section can be removed.
 
 ## Overview
 
