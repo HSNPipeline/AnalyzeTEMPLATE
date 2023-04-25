@@ -1,9 +1,7 @@
 """Run analyses across units."""
 
-import traceback
-
-from convnwb.io import load_nwbfile, get_files, save_json, save_txt, file_in_list
-from convnwb.utils import print_status
+from convnwb.io import load_nwbfile, get_files, save_json, file_in_list
+from convnwb.run import print_status, check_error
 
 # Import settings from local file
 from settings import RUN, PATHS, UNITS, XX
@@ -86,10 +84,9 @@ def main():
                 save_json(results, name + '.json', folder=str(PATHS['RESULTS'] / 'units'))
 
             except Exception as excp:
-                if not UNITS['CONTINUE_ON_FAIL']:
-                    raise
-                print_status(RUN['VERBOSE'], 'issue running unit # {}'.format(unit_ind), 2)
-                save_txt(traceback.format_exc(), name, folder=str(PATHS['RESULTS'] / 'units' / 'zFailed'))
+
+                catch_error(UNITS['CONTINUE_ON_FAIL'], name, PATHS['RESULTS'] / 'units' / 'zFailed',
+                            RUN['VERBOSE'], 'issue running unit #: \t{}')
 
     print_status(RUN['VERBOSE'] '\n\nCOMPLETED UNIT ANALYSES\n\n', 0)
 

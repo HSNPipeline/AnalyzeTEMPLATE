@@ -1,7 +1,7 @@
 """Run analyses across sessions."""
 
 from convnwb.io import get_files, save_json, load_nwbfile, file_in_list
-from convnwb.utils import print_status
+from convnwb.run import print_status
 
 # Import settings from local file
 from settings import RUN, PATHS
