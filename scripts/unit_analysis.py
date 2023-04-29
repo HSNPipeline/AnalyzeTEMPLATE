@@ -1,7 +1,8 @@
 """Run analyses across units."""
 
 from convnwb.io import load_nwbfile, get_files, save_json, file_in_list
-from convnwb.run import print_status, check_error
+from convnwb.utils.log import print_status
+from convnwb.utils.run import catch_error
 
 # Import settings from local file
 from settings import RUN, PATHS, UNITS, XX
