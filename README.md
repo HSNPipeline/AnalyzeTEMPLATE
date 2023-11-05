@@ -1,8 +1,9 @@
 # AnalyzeTEMPLATE
 
-Analysis repository for XX.
+Template structure for analyzing a single-unit dataset.
 
-[![Data](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
+[![Sort](https://img.shields.io/badge/analysis-AnalyzeTEMPLATE-lightgrey)](https://github.com/HSUPipeline/SortTEMPLATE)
+[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
 [![Template](https://img.shields.io/badge/template-HSUPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
 
 ## TEMPLATE DESCRIPTION
@@ -13,6 +14,9 @@ This template follows the general purpose
 [ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
 layout from
 [StructuredScience](https://github.com/structuredscience/).
+
+For information on how to use this template in a project, see the
+[HSUPipeline Guide](https://github.com/HSUPipeline/Overview/blob/main/Guide.md).
 
 Note: if copying this template for use, this section can be removed.
 
