@@ -2,9 +2,9 @@
 
 Template structure for analyzing a single-unit dataset.
 
-[![Sort](https://img.shields.io/badge/analysis-AnalyzeTEMPLATE-lightgrey)](https://github.com/HSUPipeline/SortTEMPLATE)
-[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
 [![Template](https://img.shields.io/badge/template-HSUPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
+[![Sort](https://img.shields.io/badge/analysis-SortTEMPLATE-lightgrey)](https://github.com/HSUPipeline/SortTEMPLATE)
+[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
 
 ## TEMPLATE DESCRIPTION
 
