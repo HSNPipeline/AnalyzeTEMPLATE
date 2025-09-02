@@ -1,14 +1,14 @@
 # AnalyzeTEMPLATE
 
-Template structure for analyzing a single-unit dataset.
+Template structure for analyzing a single-neuron dataset.
 
-[![Template](https://img.shields.io/badge/template-HSUPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSUPipeline/AnalyzeTEMPLATE)
-[![Sort](https://img.shields.io/badge/analysis-SortTEMPLATE-lightgrey)](https://github.com/HSUPipeline/SortTEMPLATE)
-[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSUPipeline/ConvertTEMPLATE)
+[![Template](https://img.shields.io/badge/template-HSNPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
+[![Sort](https://img.shields.io/badge/analysis-SortTEMPLATE-lightgrey)](https://github.com/HSNPipeline/SortTEMPLATE)
+[![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSNPipeline/ConvertTEMPLATE)
 
 ## TEMPLATE DESCRIPTION
 
-This is a template repository for a standard layout for analyzing a single-unit project.
+This is a template repository for a standard layout for analyzing a single-neuron project.
 
 This template follows the general purpose
 [ProjectTemplate](https://github.com/structuredscience/ProjectTemplate)
@@ -16,7 +16,7 @@ layout from
 [StructuredScience](https://github.com/structuredscience/).
 
 For information on how to use this template in a project, see the
-[HSUPipeline Guide](https://github.com/HSUPipeline/Overview/blob/main/Guide.md).
+[HSNPipeline Guide](https://github.com/HSNPipeline/Overview/blob/main/Guide.md).
 
 Note: if copying this template for use, this section can be removed.
 
@@ -34,7 +34,7 @@ This repository requires Python >= 3.7.
 
 As well as typical scientific Python packages, dependencies include:
 - [pynwb](https://github.com/NeurodataWithoutBorders/pynwb)
-- [convnwb](https://github.com/HSUPipeline/convnwb)
+- [convnwb](https://github.com/HSNPipeline/convnwb)
 - [spiketools](https://github.com/spiketools/spiketools)
 
 The full list of dependencies is listed in `requirements.txt`.
