@@ -3,4 +3,4 @@ pandas
 matplotlib
 seaborn
 spiketools
-convnwb @ git+https://github.com/HSNPipeline/convnwb.git@main
+hsntools
