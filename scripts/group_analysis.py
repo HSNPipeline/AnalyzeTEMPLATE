@@ -1,6 +1,6 @@
 """Run analyses across the group."""
 
-from hsntools.io import get_files, file_in_list
+from hsntools.io.utils import get_files, file_in_list
 from hsntools.run import print_status
 
 # Import settings from local file
