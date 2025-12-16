@@ -2,7 +2,7 @@
 
 Template structure for analyzing HSN data.
 
-[![Template](https://img.shields.io/badge/template-HSNPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
+[![Template](https://img.shields.io/badge/HSNTemplate-AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
 [![Prep](https://img.shields.io/badge/preprocessing-PrepTEMPLATE-lightgrey)](https://github.com/HSNPipeline/PrepTEMPLATE)
 [![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSNPipeline/ConvertTEMPLATE)
 
