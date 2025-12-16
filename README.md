@@ -1,6 +1,6 @@
 # AnalyzeTEMPLATE
 
-Template structure for analyzing a single-neuron dataset.
+Template structure for analyzing HSN data.
 
 [![Template](https://img.shields.io/badge/template-HSNPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
 [![Prep](https://img.shields.io/badge/preprocessing-PrepTEMPLATE-lightgrey)](https://github.com/HSNPipeline/PrepTEMPLATE)
@@ -22,13 +22,11 @@ Note: if copying this template for use, this section can be removed.
 
 ## Overview
 
-**Provide an overview of the analysis project here, for example:**
+*Provide an overview of the project / analysis here, for example:*
 
-This repository analyses data from the XX task, which is XX.
+This repository analyses data from the `XX` task, which is `...`
 
 ## Requirements
-
-**Fill in any extra requirements here.**
 
 This repository requires Python >= 3.7.
 
@@ -39,14 +37,17 @@ As well as typical scientific Python packages, dependencies include:
 
 The full list of dependencies is listed in `requirements.txt`.
 
+*Fill in or edit any additional requirements here.*
+
 ## Repository Layout
 
-Add any details about repository layout here.
-
 This repository is set up in the following way:
+
 - `code/` contains custom code and utilities
 - `notebooks/` contains notebooks for exploring analyses
 - `scripts/` contains stand alone scripts
+
+*Add or edit any details about repository layout here.*
 
 ## Data
 
