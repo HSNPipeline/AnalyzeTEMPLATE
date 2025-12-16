@@ -3,7 +3,7 @@
 Template structure for analyzing a single-neuron dataset.
 
 [![Template](https://img.shields.io/badge/template-HSNPipeline/AnalyzeTEMPLATE-yellow.svg)](https://github.com/HSNPipeline/AnalyzeTEMPLATE)
-[![Sort](https://img.shields.io/badge/analysis-SortTEMPLATE-lightgrey)](https://github.com/HSNPipeline/SortTEMPLATE)
+[![Prep](https://img.shields.io/badge/preprocessing-PrepTEMPLATE-lightgrey)](https://github.com/HSNPipeline/PrepTEMPLATE)
 [![Convert](https://img.shields.io/badge/data-ConvertTEMPLATE-lightgrey)](https://github.com/HSNPipeline/ConvertTEMPLATE)
 
 ## TEMPLATE DESCRIPTION
